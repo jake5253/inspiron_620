@@ -1,0 +1,123 @@
+flashrom unknown on Linux 6.1.0-40-amd64 (x86_64)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Found chipset "Intel H61".
+Enabling flash write... FREG0: Flash Descriptor region (0x00000000-0x00000fff) is read-only.
+FREG1: BIOS region (0x00180000-0x003fffff) is read-write.
+FREG2: Management Engine region (0x00001000-0x0017ffff) is locked.
+Not all flash regions are freely accessible by flashrom. This is most likely
+due to an active ME. Please see https://flashrom.org/ME for details.
+At least some flash regions are read protected. You have to use a flash
+layout and include only accessible regions. For write operations, you'll
+additionally need the --noverify-all switch. See manpage for more details.
+OK.
+Error accessing GD25Q256D/GD25Q256E, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip GD25Q256D/GD25Q256E at 0x00000000fe000000.
+Error accessing IS25LP256, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip IS25LP256 at 0x00000000fe000000.
+Error accessing IS25WP256, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip IS25WP256 at 0x00000000fe000000.
+Error accessing MX25L25635F/MX25L25645G, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX25L25635F/MX25L25645G at 0x00000000fe000000.
+Found Macronix flash chip "MX25L3205(A)" (4096 kB, SPI) mapped at physical address 0x00000000ffc00000.
+Found Macronix flash chip "MX25L3205D/MX25L3208D" (4096 kB, SPI) mapped at physical address 0x00000000ffc00000.
+Found Macronix flash chip "MX25L3206E/MX25L3208E" (4096 kB, SPI) mapped at physical address 0x00000000ffc00000.
+Found Macronix flash chip "MX25L3233F/MX25L3273E" (4096 kB, SPI) mapped at physical address 0x00000000ffc00000.
+Error accessing MX25U25635F, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX25U25635F at 0x00000000fe000000.
+Error accessing MX25U51245G, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX25U51245G at 0x00000000fc000000.
+Error accessing MX66L51235F/MX25L51245G, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX66L51235F/MX25L51245G at 0x00000000fc000000.
+Error accessing MX66L1G45G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MX66L1G45G at 0x00000000f8000000.
+Error accessing N25Q00A..1G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q00A..1G at 0x00000000f8000000.
+Error accessing N25Q00A..3G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q00A..3G at 0x00000000f8000000.
+Error accessing N25Q256..1E, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q256..1E at 0x00000000fe000000.
+Error accessing N25Q256..3E, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q256..3E at 0x00000000fe000000.
+Error accessing N25Q512..1G, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q512..1G at 0x00000000fc000000.
+Error accessing N25Q512..3G, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip N25Q512..3G at 0x00000000fc000000.
+Error accessing MT25QL01G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL01G at 0x00000000f8000000.
+Error accessing MT25QU01G, 0x8000000 bytes at 0x00000000f8000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU01G at 0x00000000f8000000.
+Error accessing MT25QL02G, 0x10000000 bytes at 0x00000000f0000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL02G at 0x00000000f0000000.
+Error accessing MT25QU02G, 0x10000000 bytes at 0x00000000f0000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU02G at 0x00000000f0000000.
+Error accessing MT25QL256, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL256 at 0x00000000fe000000.
+Error accessing MT25QU256, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU256 at 0x00000000fe000000.
+Error accessing MT25QL512, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QL512 at 0x00000000fc000000.
+Error accessing MT25QU512, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip MT25QU512 at 0x00000000fc000000.
+Error accessing S25FL256L, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip S25FL256L at 0x00000000fe000000.
+Error accessing S25FL256S......0, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip S25FL256S......0 at 0x00000000fe000000.
+Error accessing S25FL512S, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip S25FL512S at 0x00000000fc000000.
+Error accessing W25Q256FV, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q256FV at 0x00000000fe000000.
+Error accessing W25Q256JV_Q, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q256JV_Q at 0x00000000fe000000.
+Error accessing W25Q256JV_M, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q256JV_M at 0x00000000fe000000.
+Error accessing W25Q256JW, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q256JW at 0x00000000fe000000.
+Error accessing W25Q256JW_DTR, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q256JW_DTR at 0x00000000fe000000.
+Error accessing W25Q512JV, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q512JV at 0x00000000fc000000.
+Error accessing W25Q512NW-IM, 0x4000000 bytes at 0x00000000fc000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip W25Q512NW-IM at 0x00000000fc000000.
+Error accessing XM25QH256C, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip XM25QH256C at 0x00000000fe000000.
+Error accessing XM25QU256C, 0x2000000 bytes at 0x00000000fe000000
+/dev/mem mmap failed: Resource temporarily unavailable
+Could not map flash chip XM25QU256C at 0x00000000fe000000.
+Found ST flash chip "M50FLW040A" (512 kB, LPC, FWH) mapped at physical address 0x00000000fff80000.
+Multiple flash chip definitions match the detected chip(s): "MX25L3205(A)", "MX25L3205D/MX25L3208D", "MX25L3206E/MX25L3208E", "MX25L3233F/MX25L3273E", "M50FLW040A"
+Please specify which chip definition to use with the -c <chipname> option.

@@ -1,0 +1,13 @@
+-[0000:00]-+-00.0  Intel Corporation 2nd Generation Core Processor Family DRAM Controller [8086:0100]
+           +-02.0  Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller [8086:0102]
+           +-16.0  Intel Corporation 6 Series/C200 Series Chipset Family MEI Controller #1 [8086:1c3a]
+           +-1a.0  Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2 [8086:1c2d]
+           +-1b.0  Intel Corporation 6 Series/C200 Series Chipset Family High Definition Audio Controller [8086:1c20]
+           +-1c.0-[01]--
+           +-1c.1-[02]----00.0  Qualcomm Atheros AR9285 Wireless Network Adapter (PCI-Express) [168c:002b]
+           +-1c.4-[03]----00.0  Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168]
+           +-1d.0  Intel Corporation 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1 [8086:1c26]
+           +-1f.0  Intel Corporation H61 Express Chipset LPC Controller [8086:1c5c]
+           +-1f.2  Intel Corporation 6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 0-3) [8086:1c00]
+           +-1f.3  Intel Corporation 6 Series/C200 Series Chipset Family SMBus Controller [8086:1c22]
+           \-1f.5  Intel Corporation 6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 4-5) [8086:1c08]

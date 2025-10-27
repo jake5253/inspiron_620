@@ -1,0 +1,53 @@
+# dmidecode 3.4
+Getting SMBIOS data from sysfs.
+SMBIOS 2.6 present.
+
+Handle 0x000E, DMI type 16, 15 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x0010, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x000E
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM0
+	Bank Locator:      
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Undefined   
+	Serial Number: 00000000
+	Asset Tag:       
+	Part Number: F3-10666CL9-8GBNT 
+	Rank: 2
+
+Handle 0x0012, DMI type 17, 28 bytes
+Memory Device
+	Array Handle: 0x000E
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM1
+	Bank Locator:      
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Undefined   
+	Serial Number: 00000000
+	Asset Tag:       
+	Part Number: F3-10666CL9-8GBNT 
+	Rank: 2
+

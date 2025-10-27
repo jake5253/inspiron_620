@@ -1,0 +1,3 @@
+superiotool r
+Found SMSC SCH5514D (id=0x83, rev=0x01) at 0x2e
+No dump available for this Super I/O
